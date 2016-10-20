@@ -1,8 +1,6 @@
-package com.singleton.client;
+package com.create.singleton;
 
-import com.singleton.DCSingleton;
-
-public class Client {
+public class TestClient {
 	public static void main(String[] args) {
 		
 		DCSingleton singleton1 = DCSingleton.getDCSingleton();

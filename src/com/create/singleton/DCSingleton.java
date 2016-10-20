@@ -1,4 +1,4 @@
-package com.singleton;
+package com.create.singleton;
 
 //double check mode,Thread safe;
 public class DCSingleton {

@@ -1,4 +1,4 @@
-package com.singleton;
+package com.create.singleton;
 
 //Lazy mode,Thread safe;
 public class SafeSinleton {
