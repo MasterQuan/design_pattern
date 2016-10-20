@@ -1,15 +1,18 @@
 package com.singleton;
 
 public class DCSingleton {
+	//私有静态属性
 	private static volatile DCSingleton singleton;
 	
+	//私有构造方法
 	private DCSingleton(){}
 	
+	//公有静态返回方法
 	public static DCSingleton getDCSingleton(){
-		if(singleton == null){
+		if(singleton == null){                      //Single Checked
 			synchronized (DCSingleton.class) {
-				if(singleton == null){
-					singleton = new DCSingleton();
+				if(singleton == null){              //Double Checked
+					singleton = new DCSingleton();  
 				}
 			}
 		}
