@@ -1,4 +1,4 @@
-package com.behaviour.observer.observer;
+package com.behaviour.observer;
 
 public class Observer1 implements IObserver {
 
