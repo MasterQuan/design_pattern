@@ -1,5 +1,6 @@
 package com.singleton;
 
+//double check mode,Thread safe;
 public class DCSingleton {
 	//ÀΩ”–æ≤Ã¨ Ù–‘
 	private static volatile DCSingleton singleton;

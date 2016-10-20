@@ -1,6 +1,6 @@
 package com.singleton;
 
-//Lazy mode,Unsafe;
+//Lazy mode,Thread unsafe;
 public class LazyUnsafeSinleton {
 	private static LazyUnsafeSinleton singleton;
 	
