@@ -1,6 +1,4 @@
-package com.behaviour.observer.subject;
-
-import com.behaviour.observer.observer.IObserver;
+package com.behaviour.observer;
 
 public interface ISubject {
 	/*增加观察者*/  

@@ -1,4 +1,4 @@
-package com.behaviour.observer.subject;
+package com.behaviour.observer;
 
 public class MySubject extends Subject{
 

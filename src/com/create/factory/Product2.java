@@ -1,4 +1,4 @@
-package com.create.factory.products;
+package com.create.factory;
 
 public class Product2 implements Product{
 	@Override

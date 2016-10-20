@@ -1,8 +1,4 @@
-package com.create.factory.factory;
-
-import com.create.factory.products.Product;
-import com.create.factory.products.Product1;
-import com.create.factory.products.Product2;
+package com.create.factory;
 
 public class Factory {
 	public static Product produce(String name){

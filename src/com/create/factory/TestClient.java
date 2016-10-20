@@ -1,8 +1,5 @@
 package com.create.factory;
 
-import com.create.factory.factory.Factory;
-import com.create.factory.products.Product;
-
 public class TestClient {
 	public static void main(String[] args) {
 		Product pdc1 = Factory.produce("Product1");

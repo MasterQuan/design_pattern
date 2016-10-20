@@ -1,9 +1,7 @@
-package com.behaviour.observer.subject;
+package com.behaviour.observer;
 
 import java.util.Enumeration;
 import java.util.Vector;
-
-import com.behaviour.observer.observer.IObserver;
 
 public abstract class Subject implements ISubject {
 
